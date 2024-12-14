@@ -12,7 +12,7 @@ int main(void) {
             scanf("%d", &a[i][j]);
         }
     }
-
+     //jut to show you how to do it.
     // converting into upper triangular matrix
     for (int i=0; i<n; i++) {
         for (int j=0; j<m; j++) {
