@@ -11,10 +11,10 @@ struct student {
 
 int main(void) {
 
-    struct student students[50];
+    struct student students[2];
 
     // entering data
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 2; i++) {
         printf("Enter the name of student %d: ", i+1);
         scanf("%s", &students[i].name);
         printf("Enter the roll number of student %d: ", i+1);
@@ -23,18 +23,19 @@ int main(void) {
         scanf("%f %f %f", &students[i].sub_1, &students[i].sub_2, &students[i].sub_3);
     }
     // displaying data
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 2; i++) {
         printf("\nThe name of student %d is: ", i+1);
         printf("%s", students[i].name);
         printf("\nRoll number of student %d is: ", i+1);
         printf("%d", students[i].roll_no);
         printf("\nThe marks of student %d in three subjects: ", i+1);
-        printf("%f %f %f", students[i].sub_1, students[i].sub_2, students[i].sub_3);
+        printf("%.2f %.2f %.2f", students[i].sub_1, students[i].sub_2, students[i].sub_3);
 
         // total marks of each student
         float total_marks = 0;
         total_marks += students[i].sub_1 + students[i].sub_2 + students[i].sub_3;
-        printf("\nThe total marks of student %d is: %f", i+1, total_marks);
+        printf("\nThe total marks of student %d is: %.2f", i+1, total_marks);
+        printf("\n");
     }
 
     return 0;
