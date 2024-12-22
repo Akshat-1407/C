@@ -11,10 +11,10 @@ struct student {
 
 int main(void) {
 
-    struct student students[2];
+    struct student students[50];
 
     // entering data
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 50; i++) {
         printf("Enter the name of student %d: ", i+1);
         scanf("%s", &students[i].name);
         printf("Enter the roll number of student %d: ", i+1);
@@ -23,7 +23,7 @@ int main(void) {
         scanf("%f %f %f", &students[i].sub_1, &students[i].sub_2, &students[i].sub_3);
     }
     // displaying data
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 50; i++) {
         printf("\nThe name of student %d is: ", i+1);
         printf("%s", students[i].name);
         printf("\nRoll number of student %d is: ", i+1);
