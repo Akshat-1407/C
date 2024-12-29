@@ -14,7 +14,7 @@ int main() {
     swap(a, b);
 
     printf("\nValue of a, b after swapping is %d, %d.", a, b);
-
+    return 0;
 }
 
 void swap(int a, int b) {
