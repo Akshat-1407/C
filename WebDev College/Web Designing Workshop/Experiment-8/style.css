@@ -1,0 +1,47 @@
+body {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.main-title {
+    font-family: "Georgia", serif;
+    color: red;
+    font-size: 48px;
+    text-align: center;
+}
+.intro-paragraph {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.styled-box {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmwOkZKjuR8h07APiyo2iUSwE4G9Gnkt_PZA&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    min-height: 150px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid #FFD700;
+    border-radius: 15px;
+}
+.styled-box h3 {
+    font-family: "Lucida Console", monospace;
+    color: #FF6347;
+    text-align: center;
+}
+.box-text {
+    font-family: "Lucida Console", monospace;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}

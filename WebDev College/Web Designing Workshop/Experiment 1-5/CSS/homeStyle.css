@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid #333;
+}
+
+.header {
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+.logo-box {
+    width: 7rem;
+}
+
+.logo-box img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav-links {
+    background-color: #ffcc99; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.subject-menu {
+    width: 120px;
+    border-right: 2px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.subject-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subject-menu li {
+    padding: 10px 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subject-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.subject-menu li:hover {
+    background-color: #ddd;
+}
+
+.main h2 {
+    margin-top: 5rem;
+    margin-left: 33vw;
+}

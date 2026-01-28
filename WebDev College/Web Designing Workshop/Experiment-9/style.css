@@ -1,0 +1,84 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-family: "Georgia", serif;
+    color: #ffd700;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #555;
+}
+
+.content-box {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg");
+    min-height: 150px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.repeat-x-bg {
+    background-repeat: repeat-x;
+}
+
+.no-repeat-bg {
+    background-repeat: no-repeat;
+}
+
+.content-box h2 {
+    font-family: "Verdana", sans-serif;
+    color: #333;
+    font-size: 24px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.content-box p {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    color: white;
+}
+
+a:link {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8a2be2;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active {
+    color: #32cd32;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 2px solid #555;
+}
